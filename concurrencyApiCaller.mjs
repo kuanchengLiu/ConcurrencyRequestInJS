@@ -21,7 +21,7 @@ async function fetchParallel(urls, headersArray) {
 }
 
 // Usage
-const urls = ['https://pdng-dev.corp.hpicloud.net/normalization/', 'https://pdng-dev.corp.hpicloud.net/normalization/', 'https://pdng-dev.corp.hpicloud.net/normalization/'];
+const urls = ['URL', 'URL', 'URL'];
 const headersArray = [
     { 'Accept': 'application/json', 'PDNGTranID': 'Bearer your_token1' },
     { 'Accept': 'application/json', 'PDNGTranID': 'Bearer your_token2' },
